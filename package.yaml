@@ -46,7 +46,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - gomoku
-
+    # - random
 tests:
   gomoku-test:
     main:                Spec.hs
